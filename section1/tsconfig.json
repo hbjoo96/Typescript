@@ -1,0 +1,14 @@
+{
+  // "compilerOptions": { "target": "ES5" }, // 화살표 함수가 함수 표현식으로 컴파일 됨
+  // "compilerOptions": { "target": "ESNext", "module": "CommonJS" }, // 화살표 함수 사용 가능
+  //"compilerOptions": { "target": "ESNext", "module": "ESNext" },
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist", // 외부 디렉토리에 생성
+    "strict": false, // 엄격한 타입 검사, 매개변수 타입을 지정해야 함
+    "moduleDetection": "force", // 글로벌 모듈 해결 방법
+    "skipLibCheck": true
+  }, // 화살표 함수 사용 가능
+  "include": ["src"] // src 폴더 안에 한방에 컴파일해라
+}
